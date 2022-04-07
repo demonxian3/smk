@@ -1,0 +1,12 @@
+{
+  "presets": ["mobx", "@babel/env", "@babel/react"],
+  "plugins": [
+    "@babel/transform-runtime",
+    [
+      // "@babel/plugin-proposal-decorators",
+      // {
+      //   "legacy": true
+      // }
+    ]
+  ]
+}

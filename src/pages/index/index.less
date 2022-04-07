@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+
+    .main {
+        margin: 32px auto;
+        width: 1400px;
+        padding: 16px;
+        background: white;
+
+        .ant-card-body {
+            width: 100%;
+            display: flex;
+            height: 800px;
+            .operation {
+                width: 89%;
+            }
+        }
+    }
+}
+
+.coderEditor {
+    display: flex;
+    .tools {
+        width: 27%;
+        .toolbar {
+            display: flex;
+
+            .toolbar-side {
+                width: 50%;
+                padding: 0px 8px;
+
+                .ant-btn:not(:first-child) {
+                    margin-top: 16px;
+                }
+            }
+        }
+        .ant-select-selection-item {
+            display: none;
+        }
+    }
+}
+
+.jsonEditor {
+    display: flex;
+    .toolbar {
+        width: 27%;
+    }
+
+    .react-json-view {
+        overflow: scroll;
+        border: 1px solid #eee;
+        height: 660px;
+        width: 100%;
+    }
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 9px;
+}
+
+/*滚动槽*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-lightpink {
+    background-color: #eeddfd;
+}
+
+.active-item {
+    background-color: #edeffd;
+}
